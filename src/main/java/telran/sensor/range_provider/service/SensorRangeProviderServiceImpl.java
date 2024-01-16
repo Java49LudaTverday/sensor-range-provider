@@ -12,7 +12,7 @@ import telran.sensor.range_provider.repo.SensoreRepo;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class SensoreRangeProviderServiceImpl implements SensorRangeProviderService {
+public class SensorRangeProviderServiceImpl implements SensorRangeProviderService {
 
 	final SensoreRepo sensorRepo;
 
