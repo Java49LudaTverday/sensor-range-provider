@@ -1,6 +1,7 @@
 package telran.sensor.range_provider.api;
 
 public interface UrlConstants {
-String SENSORE = "sensor";
-String GET_RANGE = SENSORE + "/range";
+String SENSOR = "/sensor";
+String GET_RANGE = "/range/";
+String SENSOR_ID_IN_PATH = "id";
 }
